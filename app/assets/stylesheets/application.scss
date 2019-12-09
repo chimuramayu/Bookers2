@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+.flash {
+  color: green;
+}
+
+.error-message-box {
+  color: red;
+}
+
+a:hover {
+  background-color:#000000;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+

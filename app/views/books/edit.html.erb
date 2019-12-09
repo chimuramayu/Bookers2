@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+  	<div class="col-xs-6 col-xs-offset-3">
+  	  <h1 class="headline">Edting Book</h1>
+
+        <%= render "layouts/error_messages", model: @book %>
+
+        <%= form_for(@book) do |f| %>
+	        <div class="field row">
+	          <%= f.label :title %><br />
+	          <%= f.text_field :title, class:"col-xs-12" %>
+	        </div>
+	        <div class="field row">
+	          <%= f.label :opinion %><br />
+	          <%= f.text_area :body, class:"col-xs-12" %>
+	        </div>
+	        <div class="action row">
+	          <%= f.submit "Update Book", class:"btn btn-primary col-xs-12" %>
+	        </div>
+        <% end %>
+        <div class="action-btn">
+	      <%=link_to "Show", book_path %>
+	      <span>|</span>
+	      <%=link_to "Back", books_path %>
+	    </div>
+
+    </div>
+  </div>
+</div>
