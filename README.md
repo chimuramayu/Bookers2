@@ -1,24 +1,12 @@
-# README
+# Bookers
+読んだ本の感想を投稿できるwebアプリケーションです。
+自分の投稿だけでなく、ほかの人が投稿した本の感想も見ることができます.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bookers can share your opinion about a book you read.
+And you can read impression of the book that other people posted.
 
-Things you may want to cover:
+## 
+Rubyで書かれています。
 
-* Ruby version
+application written in Ruby.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
